@@ -1,5 +1,9 @@
 #Example project
 
-print(f"Hello word")
+def print_sentence(sentence):
+    print(sentence, "!")
+
+
+print_sentence("Hello word")
 print(f"Operation complete")
 print(f"Goodbye")
