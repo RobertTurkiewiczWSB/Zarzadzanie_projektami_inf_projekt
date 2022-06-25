@@ -37,7 +37,11 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: python setup.py
+      - run:
+          name: Run task 3
           command: python lista5.py -z3 45
+      - run:
+          name: Run task 4
           command: python lista5.py -z4 True
 
 # Invoke jobs via workflows
