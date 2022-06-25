@@ -37,6 +37,8 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: python setup.py
+          command: python lista5.py -z3 45
+          command: python lista5.py -z4 True
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
